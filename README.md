@@ -4,7 +4,7 @@ This repository contains the Jupyter notebook and numerical data used for the **
 
 ## Contents
 
-* `AICI_tranition_RBCI_p04.ipynb` — Jupyter notebook containing the complete scaling analysis.
+* `Scaling_Analysis.ipynb` — Jupyter notebook containing the complete scaling analysis.
 * `sigmaxy_L32.txt` — Data for system size \(L=32\).
 * `sigmaxy_L64.txt` — Data for system size \(L=64\).
 * `sigmaxy_L96.txt` — Data for system size \(L=96\).
@@ -37,7 +37,7 @@ pip install numpy scipy matplotlib jupyter
 Clone or download this repository and open the notebook:
 
 ```bash
-jupyter notebook AICI_tranition_RBCI_p04.ipynb
+jupyter notebook Scaling_Analysis.ipynb
 ```
 
 Make sure that the notebook and all the corresponding `.txt` data files are located in the same directory.
@@ -57,7 +57,3 @@ The repository is provided to facilitate reproduction and further exploration of
 **Naba Prakash Nayak**
 
 Department of Physics, Universität Regensburg
-
----
-
-If you use this repository or the accompanying analysis in your work, please cite the associated research publication/preprint.
